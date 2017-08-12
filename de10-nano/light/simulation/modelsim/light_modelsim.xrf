@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, /home/ubuntu/workdir/de10-nano-demos/light/light.v
+source_file = 1, /home/ubuntu/workdir/de10-nano-demos/light/light.vwf
+source_file = 1, /home/ubuntu/workdir/de10-nano-demos/light/db/light.cbx.xml
+design_name = light
+instance = comp, \f~output , f~output, light, 1
+instance = comp, \x1~input , x1~input, light, 1
+instance = comp, \x2~input , x2~input, light, 1
+instance = comp, \f~0 , f~0, light, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, light, 1
